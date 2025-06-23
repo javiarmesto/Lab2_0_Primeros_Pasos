@@ -1,0 +1,26 @@
+
+# .gitignore para proyectos AL
+
+# Carpetas y archivos de VS Code
+.vscode/
+*.code-workspace
+
+# Archivos de configuración de entorno
+launch.json
+app.json
+
+# Archivos de salida de compilación
+*.app
+
+# Archivos temporales y de sistema
+*.alcache
+*.user
+*.tmp
+*.log
+
+# Archivos de sistema operativo
+Thumbs.db
+.DS_Store
+
+# Otros archivos que no quieras subir
+# (añade aquí cualquier archivo o carpeta personalizada)
