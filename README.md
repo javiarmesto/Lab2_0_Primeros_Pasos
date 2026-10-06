@@ -1,5 +1,16 @@
 # Mini Ejemplos para Usar Instrucciones Personalizadas
 
+## Entrada por rol
+
+- [Alumnado](EjercicioAlumnos.md): actividad y resultado que debes producir.
+- [Instructor](InstruccionesInstructor.md): preparación y conducción del ejercicio.
+- [Prompts de ejemplo](PromptsEjemplosAL.md): punto de partida para tu proyecto.
+
+Es material docente y contexto de Copilot, no una extensión lista para publicar. Necesitas VS Code, AL Language, GitHub Copilot y un sandbox para compilar el código que generes. Crea un proyecto aparte con **AL: Go!**, configura tus versiones/IDs y `launch.json`, descarga símbolos y aplica las instrucciones del repo. El resultado esperado son objetos AL revisados y una prueba de sus validaciones en tu sandbox.
+
+No hay manifiesto que fije versión BC; registra la de tu ejercicio. Inspección estática del 6 de octubre de 2026, sin compilar ni publicar.
+
+
 ## Descripción
 Este repositorio contiene mini ejemplos diseñados para demostrar cómo utilizar instrucciones personalizadas en proyectos AL. Los ejemplos incluyen configuraciones iniciales y primeros prompts para facilitar el aprendizaje y la implementación.
 
@@ -16,7 +27,7 @@ Este repositorio contiene mini ejemplos diseñados para demostrar cómo utilizar
 
 2. **Revisión de Archivos**:
    - Abre los archivos de ejemplo en el repositorio.
-   - Familiarízate con las instrucciones personalizadas en `DemoCompanial.instructions.md`.
+   - Familiarízate con las instrucciones personalizadas en [`.github/instructions/DemoCompanial.instructions.md`](.github/instructions/DemoCompanial.instructions.md).
 
 3. **Ejecutar Prompts**:
    - Utiliza los prompts iniciales para explorar las funcionalidades.
